@@ -1,0 +1,128 @@
+.navbar {
+    background-color: #e9acfd !important; /* Set a light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 1rem 2rem; 
+    border-radius: 3%;
+    
+  }
+  
+  /* Style the navbar brand for a prominent logo */
+  .navbar-brand {
+    align-items: center !important;
+    font-weight: bold;
+    font-size: 2rem !important; /* Adjust font size as needed */
+    color: #000000; /* Set a contrasting color for readability */
+  }
+
+  /* Login/Signup Button */
+  .login-signup-btn {
+    background-color: #1d1625; /* Light purple background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .login-signup-btn:hover {
+    background-color: #4a3cc0; /* Darker purple on hover */
+  }
+  .nav-link {
+    align-items: center !important;
+    color: #333; /* Set a contrasting color for readability */
+    margin-right: 1rem; /* Add some spacing between links */
+    font-size: 1.1rem;
+  
+    &:hover,
+    &.active {
+      color: #b700ff; /* Change color on hover or active state */
+    }
+  }
+  
+  /* Style the search form for a modern look and feel */
+  .d-flex {
+    margin-left: auto; /* Position search form to the right */
+  }
+  
+  .form-control {
+    border-color: #ced4da; /* Set a subtle border color */
+    border-radius: 0.25rem; /* Match border radius of dropdown menu */
+  }
+  
+  .btn-outline-success {
+    color: #28a745; /* Set green color for search button */
+    border-color: #28a745; /* Match button color with border */
+    border-radius: 0.25rem; /* Match border radius of dropdown menu */
+  }
+  
+  /* Responsive adjustments for a smooth experience on all devices */
+  @media (max-width: 992px) {
+    .navbar-brand {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  
+    .nav-link {
+      margin-right: 1rem; /* Reduce spacing on smaller screens */
+    }
+  }
+body {
+    background-image: url('about.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    /* background-color: #333; */
+    
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  
+  .description {
+    font-size: 30px;
+    padding: 20px;
+    /* max-width: 600px; */
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30px;
+  }
+  
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    color: aliceblue;
+    margin-top: 50px;
+
+  }
+  
+  .stat {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    width: 200px;
+  }
+  
+  .stat h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  
