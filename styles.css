@@ -1,3 +1,7 @@
+body{
+  background-color: #faeeff;
+}
+
 /* Base styles for a clean and modern navbar */
 .navbar {
     background-color: #e9acfd !important; /* Set a light background color */
@@ -72,7 +76,7 @@ button {
   }
   
   .login-signup-btn:hover {
-    background-color: #4a3cc0; /* Darker purple on hover */
+    background-color: #a902eb; /* Darker purple on hover */
   }
   
   /*////////////PAGE SECTION////////////////*/
@@ -82,7 +86,7 @@ button {
 .hero {
     padding-top: 100px; /* Adjust padding as needed */
     padding-bottom: 100px; /* Adjust padding as needed */
-    background-color: #faeeff; /* Light background color */
+    background-color: #f6dfff; /* Light background color */
   }
   
   .hero .container {
@@ -101,31 +105,36 @@ button {
   }
   
   .hero h1 {
-    font: bolder;
+    font-weight: 600;
     font-size: 4rem; /* Adjust heading size as needed */
     margin-bottom: 2px; /* Add spacing below heading */
   }
   .hero h2 {
-    font: bolder;
-    font-size: 2.5rem; /* Adjust heading size as needed */
+    /* font: bolder; */
+    font-size: 1.5rem; /* Adjust heading size as needed */
     margin-bottom: 2px; /* Add spacing below heading */
     margin-top: 30px;
   }
   
   .hero p {
-    font-size: 16px; /* Adjust paragraph size as needed */
-    line-height: 1.5; /* Adjust line spacing for readability */
+    font-weight: 400;
+    font-size: 1.5rem; /* Adjust paragraph size as needed */
+    /* line-height: 1.5; Adjust line spacing for readability */
     margin-top: 30px;
     margin-bottom: 30px; /* Add spacing below paragraphs */
   }
   
   .hero .btn {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 20px; /* Adjust button padding as needed */
     background-color: #d400ff; /* Set button color */
     color: #fff; /* Set button text color */
     border: none; /* Remove border */
     border-radius: 5px; /* Add rounded corners */
+  }
+
+  .hero .btn:hover{
+    background-color: #000000;
   }
 
   
@@ -145,7 +154,61 @@ button {
     line-height: 1.5; /* Adjust line spacing for readability */
     margin-bottom: 10px; /* Add spacing below paragraphs */
   }
-  
+
+
+  .title2{
+    padding: 10px ;
+    text-align: center;
+    margin: 100px;
+  }
+  .title2 h2{
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+  .card-title{
+    font-weight: 700;
+    /* margin-top: 17%; */
+  }
+  .card{
+    background-image: url("./images/card.jpg");
+    border-radius: 20px;
+  }
+
+
+  .section{
+    
+    max-width: 100%;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+  }
+  .layout{
+    padding: 100px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    display: inline-flex;
+    padding: 50px;
+  }
+  .headline{
+    font-size: 30px;
+  }
+  .question{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  .button{
+    background-color: #000000;
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+  .button:hover{
+    background-color: #a902eb;
+  }
 
 
 
@@ -322,3 +385,4 @@ button {
 
 
 
+/*///////////////////////*/

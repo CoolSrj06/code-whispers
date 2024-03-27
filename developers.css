@@ -1,0 +1,28 @@
+.card{
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+    display: inline-flex;
+    background-color: #faeeff;
+}
+.intro{
+    text-align: center;
+    padding-top: 50px;
+}
+h1{
+    color:#d8bfe3;
+    font-size: 4rem;
+    font-weight: 700;
+}
+h4{
+    color:#d8bfe3;
+    padding-top: 15px;
+    opacity: 60%;
+}
+body{
+    background-color: #faeeff;
+    background-image: url("./images/developers.jpg");
+    background-size: cover ;
+  }
