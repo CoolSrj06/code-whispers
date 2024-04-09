@@ -1,3 +1,4 @@
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -90,7 +91,7 @@ body {
   body {
     display: flex;
     align-items: center; /* Center align items vertically */
-    background-image: url('img1.jpg'); 
+    background-image: url('./images/img1.jpg'); 
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
     height: 100vh; /* Set the height to fill the viewport height */
