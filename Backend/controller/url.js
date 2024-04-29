@@ -26,9 +26,14 @@ async function handleHTMLRequest(req, res){
     const htmlFileName = req.params.htmlFileName; 
     res.sendFile(`${htmlFileName}.html`, { root: '../' }); // Adjust file path if needed
 }
+async function handleJSRequest(req, res){
+    const jsFileName = req.params.jsFileName; 
+    res.sendFile(`${jsFileName}.js`, { root: '../Backend/' });
+}
 
 module.exports={
     handleImagesRequest,
     handleCSSRequest,
     handleHTMLRequest,
+    handleJSRequest,
 }

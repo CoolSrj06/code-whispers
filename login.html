@@ -10,7 +10,7 @@
   <div class="container">
     <h1 class="title">Sign up</h1>
     <p class="description">Sign up to enjoy all the features</p>
-    <form class="signup-form">
+    <form class="signup-form" action="/user/signUp" method="POST">
       <label for="name" class="form-label">Your Name</label>
       <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
       <label for="email" class="form-label">Email</label>
@@ -18,14 +18,14 @@
       <label for="password" class="form-label">Password</label>
       <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
       <button type="submit" class="btn btn-primary">Sign up</button>
+
+
       <p class="or-text">or</p>
       <a href="#" class="btn btn-google" id="google-signin-btn">Continue with Google G</a>
       <p class="already-have-account">Already have an account? <a href="log.html">Log in</a></p>
     </form>
   </div>
   
-
-  <script src="script.js"></script>
   <script src="https://apis.google.com/js/api.js"></script>
 
 </body>

@@ -21,6 +21,9 @@
                 <a class="nav-link"  href="index.html">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="queries.html">Queries</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
@@ -34,65 +37,28 @@
               </li>
             </ul>
         </div>
-        <a href="login.html" class="login-signup-btn">Login / Signup</a>
+        <!--<a href="login.html" class="login-signup-btn">Login / Signup</a>-->
         </div>
       </nav>
 
-
+      <form action="/doubt/post" method="POST">
       <div class="Question-portal">
+        
         <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label1">Ask your Doubts</label>
+            <label class="form-label1">Ask your Doubts</label>
         </div>
-        <textarea class="brn-question-editor__instance sg-textarea sg-textarea--full-width sg-textarea--xtall js-ask-textarea" name="task_content" data-hj-allow="" data-testid="ask_question_unlog_text_editor_textarea" placeholder="Write your question here (Keep it simple and clear to get the best answer)"></textarea>
+        <textarea class="brn-question-editor__instance sg-textarea sg-textarea--full-width sg-textarea--xtall js-ask-textarea" name="doubt" data-hj-allow="" data-testid="ask_question_unlog_text_editor_textarea" placeholder="Write your question here (Keep it simple and clear to get the best answer)"></textarea>
 
         <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label2">Write your code here (If any)</label>
+            <label class="form-label2">Elaborate or your code here (If any)</label>
         </div>
-        <textarea class="brn-question-editor__instance1 sg-textarea sg-textarea--full-width sg-textarea--xtall js-ask-textarea" name="task_content" data-hj-allow="" data-testid="ask_question_unlog_text_editor_textarea" placeholder="Write your code here (Keep it simple and clear to get the best answer)"></textarea>
-
-        <div class="col-md-4">
-            <label for="inputState" class="form-label3">Language</label>
-            <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option value="Python">Python</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="Java">Java</option>
-                <option value="C++">C++</option>
-                <option value="C#">C#</option>
-                <option value="Ruby">Ruby</option>
-                <option value="Swift">Swift</option>
-                <option value="Go">Go (Golang)</option>
-                <option value="PHP">PHP</option>
-                <option value="TypeScript">TypeScript</option>
-                <option value="Kotlin">Kotlin</option>
-                <option value="Rust">Rust</option>
-                <option value="Objective-C">Objective-C</option>
-                <option value="Perl">Perl</option>
-                <option value="Scala">Scala</option>
-                <option value="R">R</option>
-                <option value="MATLAB">MATLAB</option>
-                <option value="Lua">Lua</option>
-                <option value="HTML">HTML (HyperText Markup Language)</option>
-                <option value="CSS">CSS (Cascading Style Sheets)</option>
-                <option value="SQL">SQL (Structured Query Language)</option>
-                <option value="Bash">Bash (Shell Scripting)</option>
-                <option value="PowerShell">PowerShell (Shell Scripting)</option>
-                <option value="Assembly">Assembly</option>
-                <option value="Lisp">Lisp</option>
-                <option value="Scheme">Scheme</option>
-                <option value="Prolog">Prolog</option>
-                <option value="Haskell">Haskell</option>
-                <option value="Erlang">Erlang</option>
-                <option value="Tcl">Tcl (Tool Command Language)</option>
-                <option value="Dart">Dart</option>
-                <option value="Other">Other (Please mention it in the question.)</option>
-            </select>
-        </div>
+        <textarea class="brn-question-editor__instance1 sg-textarea sg-textarea--full-width sg-textarea--xtall js-ask-textarea" name="code" data-hj-allow="" data-testid="ask_question_unlog_text_editor_textarea" placeholder="Write your code here (Keep it simple and clear to get the best answer)"></textarea>
 
         <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Ask Question</button>
+            <button type="submit" class="btn btn-primary" >Ask Question</button>
         </div>
       </div>
+    </form>  
 
 
       <footer class="site-footer">
