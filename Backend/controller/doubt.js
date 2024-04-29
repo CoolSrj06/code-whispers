@@ -1,7 +1,6 @@
 const User = require("../model/doubts");
 
 async function handleUserDoubts(req, res) {
-    console.log('working');
     const { doubt,code} = req.body;
 
     try { // Add error handling
@@ -35,7 +34,6 @@ async function fetchData(req, res) {
 // Function to update answer
 async function submitAnswer(req, res) {
     const { doubtId, answerText } = req.body;
-    console.log(doubtId);
   
     try {
       const updatedDoubt = await User.findByIdAndUpdate(doubtId, {
