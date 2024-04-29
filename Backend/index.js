@@ -9,8 +9,6 @@ const doubtRouter=require('./routes/doubt');
 
 //Middleware
 
-//app.use(logReqRes('log.txt'));
-
 app.use(express.json());
 //to support form data 
 app.use(express.urlencoded({extended:false}));
@@ -22,7 +20,6 @@ const {connectMongoDb}=require('./connection');
 connectMongoDb("mongodb://127.0.0.1:27017/CodeWispers");
 
 
-//app.use(redirectIndex);
 app.use("/",useRouter);
 
 app.use('/user', userRouter);
