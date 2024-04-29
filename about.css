@@ -96,7 +96,18 @@ body {
     color: aliceblue;
     margin-top: 30px;
   }
-  
+  .About{
+    font-size: 25px;
+    padding: 20px;
+    /* max-width: 600px; */
+    text-align:justify;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border: 2px solid aliceblue;
+  }
   .stats {
     display: flex;
     flex-wrap: wrap;
@@ -104,8 +115,9 @@ body {
     padding: 20px;
     width: 100%;
     color: aliceblue;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 100px;
+    
   }
   
   .stat {
@@ -113,7 +125,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: 2px solid #ddd;
-    width: 200px;
+    width: 400px;
   }
   
   .stat h2 {
