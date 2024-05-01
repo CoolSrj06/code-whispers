@@ -9,7 +9,7 @@ const{handleImagesRequest, handleCSSRequest, handleHTMLRequest, handleJSRequest}
 //app.use(express.static('../images/')); // Specifically for the 'images' folder
 
 router.get('/', (req, res) => {
-    res.sendFile('log.html', { root: '../' }); 
+    res.sendFile('log.html', { root: '../Backend/Frontend/' }); 
 });
 
 router.get('/:htmlFileName.html', handleHTMLRequest);
