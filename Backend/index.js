@@ -6,12 +6,14 @@ const {logReqRes, redirectIndex, configureSessionMiddleware, requireLogin}=requi
 const useRouter=require('./routes/url');
 const userRouter=require('./routes/user');
 const doubtRouter=require('./routes/doubt');
+const cookieParser=require('cookie-parser');//installed => npm install cookie-parser, used when cookie are used
 
 //Middleware
 
 app.use(express.json());
 //to support form data 
 app.use(express.urlencoded({extended:false}));
+app.use(cookieParser());
 
 const PORT=8001;
 app.listen(PORT,()=> console.log(`Connected at PORT: ${PORT}`));
