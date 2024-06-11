@@ -10,9 +10,7 @@
 
 ## Preview
 
-
-
-
+https://github.com/CoolSrj06/code-whispers/assets/115079712/f37b0dbe-c07d-4a02-9624-2348c8336f8a
 
 ## About The Project
 ### Overview
