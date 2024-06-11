@@ -11,7 +11,7 @@
 ## Preview
 
 
-https://github.com/AnishMane/UniStorage/assets/112772218/a88ae0d8-ea94-44bb-97e2-e59eacbee218
+
 
 
 ## About The Project
@@ -43,21 +43,20 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AnishMane/UniStorage.git
+   git clone https://github.com/AnishMane/UniStorage.git](https://github.com/CoolSrj06/code-whispers.git
    ```
 2. Install NPM packages
    ```sh
    npm install
    ```
-3. Start the client using
+3. Install nodemon  
+   ```sh
+   npm install nodemon
+   ```
+4. Start the server using
    ```sh
    npm start
    ```
-4. Start sever using
-   ```sh
-   npm run dev
-   ```
-
 
 
 <!-- CONTRIBUTING -->
@@ -79,4 +78,4 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Anish - anishmane70@gmail.com
+Srijan Maurya: srijanmaurya6602@gmail.com
