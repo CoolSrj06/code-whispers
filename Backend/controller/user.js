@@ -1,4 +1,6 @@
 const User = require("../model/user");
+const {v4: uuidv4}=require('uuid');
+const {setUser} =require('../service/auth');
 
 async function handleUserSignUp(req, res) {
     const { name, email, password } = req.body;
@@ -35,6 +37,10 @@ async function handleUserLogin(req, res) {
         }
 
         // 4. Successful login - handle session or token generation
+        const sessionId=uuidv4(); 
+        setUser(sessionId,user);
+        res.cookie('uid',sessionId);
+
         // ... your code for creating a session or generating a JWT
 
         res.redirect('/index.html'); 

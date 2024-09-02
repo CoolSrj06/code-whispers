@@ -6,14 +6,14 @@ const {logReqRes, redirectIndex, configureSessionMiddleware, requireLogin}=requi
 const useRouter=require('./routes/url');
 const userRouter=require('./routes/user');
 const doubtRouter=require('./routes/doubt');
+const cookieParser=require('cookie-parser');//installed => npm install cookie-parser, used when cookie are used
 
 //Middleware
-
-//app.use(logReqRes('log.txt'));
 
 app.use(express.json());
 //to support form data 
 app.use(express.urlencoded({extended:false}));
+app.use(cookieParser());
 
 const PORT=8001;
 app.listen(PORT,()=> console.log(`Connected at PORT: ${PORT}`));
@@ -22,7 +22,6 @@ const {connectMongoDb}=require('./connection');
 connectMongoDb("mongodb://127.0.0.1:27017/CodeWispers");
 
 
-//app.use(redirectIndex);
 app.use("/",useRouter);
 
 app.use('/user', userRouter);
