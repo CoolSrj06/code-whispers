@@ -1,0 +1,95 @@
+.container {
+    display: flex;          /* Enable Flexbox */
+    align-items: center;    /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  } 
+
+/* Center alignment for the container */
+.sort-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontal centering */
+  justify-content: center; /* Vertical centering if needed */
+  margin: 20px 0; /* Add spacing above and below */
+}
+
+/* Style for the label */
+.small-label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-align: center; /* Ensures the label text is centered */
+}
+
+/* Smaller dropdown menu */
+.small-dropdown {
+  font-size: 12px;
+  padding: 5px 10px;
+  width: 150px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none; /* Removes default browser styling */
+  cursor: pointer;
+  text-align: center; /* Aligns the dropdown text in the center */
+}
+
+/* Add hover effect */
+.small-dropdown:hover {
+  border-color: #007BFF;
+  background-color: #f9f9f9;
+}
+
+/* Responsive styling (optional) */
+@media (max-width: 768px) {
+  .small-dropdown {
+      width: 100%;
+  }
+}
+
+
+  #displayArea {
+    /*border: 1px solid #ccc;  /* Adjust border color as needed */
+    padding-top: 50px;
+    padding-left: 150px;          /* Adjust padding as needed */
+    padding-right: 150px;
+    border-radius: 10px;
+  }
+
+  /* In queries.css (or within <styles> tags of your HTML) */
+
+.entry {
+    background-color: #e1d3f5; /* Use your primary color */
+    border: 1px solid #000000; 
+    border-radius: 8px;        
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Consider white text for contrast */ 
+  }
+  
+  /* Optional: Styling for text box */
+  textarea {
+    width: 100%;  
+    padding: 10px; 
+    border: 1px solid #000000; /* Match card border */
+    border-radius: 5px;  
+    box-sizing: border-box;
+  }
+  
+  /* Styling for Answer and Doubt text */
+  .entry h3, .entry p, .entry h4 {
+    color: #410b0b; /* Or a lighter color for visibility */
+    font-size: 18px; 
+  }
+
+  .entry p, 
+.entry pre,
+.answer-section p { /* Targets relevant text elements */
+  color: #333333; /* A darker gray color (adjust as needed) */
+}
+
+  
+  
+  

@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Hero Section */
+.background {
+    background-color: #f6dfff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+/* User Details Section */
+.user-details {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#userDetailsContainer p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Buttons */
+.logout-btn, .changePassword-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #e977e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #b300b0;
+}
+
+.logout-btn {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+}
+
+/* Change Password Section */
+.change-password-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.changePassword-btn {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#changePasswordForm {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#changePasswordForm label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#changePasswordForm input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#changePasswordForm .btn-submit {
+    width: 100%;
+    background-color: #28a745;
+}
+
+#changePasswordForm .btn-submit:hover {
+    background-color: #218838;
+}
+
+/* Error Messages */
+.password-change-error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+#password-check {
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 5px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Login</h1>
+    <p class="description">Enter your credential to login</p>
+    <form class="login-form" action="/api/v2/users/login" method="POST">
+      <label for="emailOrUsername" class="form-label">Email or Username</label>
+      <p id="error-message" class="password-check" style="display: none;">Incorrect username or password</p>
+      <input type="text" id="emailOrUsername" name="emailOrUsername" class="form-control" placeholder="Enter your email or username" required>
+      <label for="password" class="form-label">Password</label>
+      <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
+      <button type="submit" class="btn btn-primary">Log in</button>
+      <!-- <a class="forgot" href="#"><p style="color: black; font-size: small;">Forgot password?</p></a> -->
+      <p class="already-have-account">Don't have an account?<a href="signUp.html">Signup</a></p>
+    </form>
+    
+  </div>
+  <img class="logImg" src="./images/log.jpg">
+  <div class="text">Hello! Welcome Back to CodeWhispers.</div>
+  <!-- <div class="text1">Please enter your email and password to Continue.</div> -->
+  <script src="https://apis.google.com/js/api.js"></script>
+  <script type="module" src="Scripts/loginScript.js"></script>
+</body>
+</html>

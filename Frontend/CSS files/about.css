@@ -1,0 +1,298 @@
+.navbar {
+    background-color: #e9acfd !important; /* Set a light background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 1rem 2rem; 
+    border-radius: 3%;
+    
+  }
+  
+  /* Style the navbar brand for a prominent logo */
+  .navbar-brand {
+    align-items: center !important;
+    font-weight: bold;
+    font-size: 2rem !important; /* Adjust font size as needed */
+    color: #000000; /* Set a contrasting color for readability */
+  }
+
+  /* Login/Signup Button */
+  .login-signup-btn {
+    background-color: #1d1625; /* Light purple background */
+    color: #fff; /* White text color for contrast */
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .login-signup-btn:hover {
+    background-color: #4a3cc0; /* Darker purple on hover */
+  }
+  .nav-link {
+    align-items: center !important;
+    color: #333; /* Set a contrasting color for readability */
+    margin-right: 1rem; /* Add some spacing between links */
+    font-size: 1.1rem;
+  
+    &:hover,
+    &.active {
+      color: #b700ff; /* Change color on hover or active state */
+    }
+  }
+  
+  /* Style the search form for a modern look and feel */
+  .d-flex {
+    margin-left: auto; /* Position search form to the right */
+  }
+  
+  .form-control {
+    border-color: #ced4da; /* Set a subtle border color */
+    border-radius: 0.25rem; /* Match border radius of dropdown menu */
+  }
+  
+  .btn-outline-success {
+    color: #28a745; /* Set green color for search button */
+    border-color: #28a745; /* Match button color with border */
+    border-radius: 0.25rem; /* Match border radius of dropdown menu */
+  }
+  
+  /* Responsive adjustments for a smooth experience on all devices */
+  @media (max-width: 992px) {
+    .navbar-brand {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  
+    .nav-link {
+      margin-right: 1rem; /* Reduce spacing on smaller screens */
+    }
+  }
+body {
+    background-image: url('images/about.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  header {    
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  
+  .description {
+    font-size: 30px;
+    padding: 20px;
+    /* max-width: 600px; */
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30px;
+  }
+  .About{
+    font-size: 25px;
+    padding: 20px;
+    /* max-width: 600px; */
+    text-align:justify;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    border: 2px solid aliceblue;
+  }
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+  }
+  
+  .stat {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    width: 400px;
+  }
+  
+  .stat h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+  .site-footer
+{
+  background-color:#e9acfd;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#000000;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+    font-weight: 700;
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#b700ff;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
