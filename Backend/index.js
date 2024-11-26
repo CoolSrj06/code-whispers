@@ -15,6 +15,8 @@ connectDB()
     console.log("MONGO db connection failed !!! ", err);
 })
 
+// Export the app for Vercel
+export default app; // This line is important for Vercel
 
 
 
