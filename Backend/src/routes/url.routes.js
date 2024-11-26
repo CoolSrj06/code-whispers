@@ -9,7 +9,7 @@ router.get('/index.html', (req, res) => {
 });
 
 router.get('/', ( _ , res) => {
-    res.sendFile('index.html', { root: '../Frontend/' }); 
+    res.sendFile('index.html', { root: '../Backend/Frontend/' }); 
 });
 
 router.get('/:htmlFileName.html', handleHTMLRequest);
