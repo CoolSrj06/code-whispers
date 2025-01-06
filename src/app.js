@@ -29,6 +29,6 @@ app.use("/api/v2/url", urlRouter)
 app.use("/api/v2/users", userRouter)
 
 // error-handling middleware (must be added after all routes)
-//app.use(errorHandler);
+app.use(errorHandler);
 
 export { app }
